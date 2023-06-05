@@ -1,0 +1,151 @@
+.bg {
+    padding: 25px;
+    height: 100vh;
+}
+.div-1 {
+   background-image: linear-gradient(to right, orange, white, green);
+   box-shadow: 0rem;
+   height: 10%;
+   width: 100%;
+   position: relative;
+}
+.stripe-1,
+.stripe-2,
+.stripe-3,
+.stripe-4
+{
+   height :100px;
+   width  :100px;
+   transform: rotate(45deg);
+   position: absolute;
+   border-radius: 20px;
+}
+.stripe-1 {
+   background-color: blue;
+   width: 10px;
+   left: 100px;
+}
+.stripe-2 {
+   background-color: greenyellow;
+   width: 30px;
+   left: 20px;
+}
+.stripe-3 {
+    background-color: brown;
+    width: 5px;
+    height: 30px;
+    left: 200px;
+    top: 30px;
+}
+.stripe-4 {
+    background-color: crimson;
+    width: 9px;
+    height: 60px;
+    left: 150px;
+    top: 80px;
+}
+.section-1 {
+    color: white;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+.section-2 {
+    position: relative;
+}
+.a {
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 180px;
+    z-index: 1;
+    top: 50px;
+}
+.a1 {
+    height: 200px;
+    width: 130px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    z-index: 0;
+}
+.a1:hover {
+    z-index: 2;
+    transition-delay: 2s;
+}
+.b {
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 370px;
+    z-index: 1;
+    top: 60px;
+}
+.b1 {
+    height: 200px;
+    width: 130px;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    left: 400px;
+    top: -10px;
+    z-index: 0;
+}
+.b1:hover
+{
+    z-index: 4;
+    transition-delay: 2s;
+}
+.c {
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    right: 580px;
+    z-index: 1;
+    top: 50px;
+}
+.c1 {
+    width: 130px;
+    height: 200px;
+    background-color: rgb(0, 255, 85);
+    position: absolute;
+    right: 550px;
+    z-index: 0;
+    top: 10px;
+}
+.c1:hover
+{
+    z-index: 6;
+    transition-delay: 2s;
+}
+.d {
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    right: 400px;
+    z-index: 1;
+    top: 50px;
+}
+.d1 {
+    width: 130px;
+    height: 200px;
+    background-color: rgb(255, 251, 0);
+    position: absolute;
+    right: 350px;
+    z-index: 0;
+    top: -10px;
+}
+.d1:hover
+{
+    z-index: 8;
+    transition-delay: 2s;
+}
